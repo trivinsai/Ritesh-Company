@@ -74,7 +74,7 @@ export default function AboutPage() {
               className="relative h-96 rounded-lg overflow-hidden shadow-lg"
             >
               <img
-                src="/placeholder.svg?height=400&width=500"
+                src="/about.jpg"
                 alt="Ritesh & Company facility"
                 className="w-full h-full object-cover"
               />
@@ -155,7 +155,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted">
+      {/* <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0 }}
@@ -190,10 +190,13 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+        <div className="text-center mt-6 text-sm">
+           this is prototype version 
+        </div>
+      </section> */}
 
       {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-primary text-white">
+      <section className="py-16  px-4 sm:px-6 lg:px-8 bg-primary text-white">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
             <h2 className="text-4xl font-bold mb-6">Join Our Growing Family</h2>
